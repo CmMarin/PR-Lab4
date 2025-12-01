@@ -1,0 +1,48 @@
+{
+  "leader_url": "http://127.0.0.1:8000",
+  "results": [
+    {
+      "quorum": 1,
+      "avg_latency_ms": 154.9275160000252
+    },
+    {
+      "quorum": 2,
+      "avg_latency_ms": 322.5728779997007
+    },
+    {
+      "quorum": 3,
+      "avg_latency_ms": 503.1845669996983
+    },
+    {
+      "quorum": 4,
+      "avg_latency_ms": 683.5753109999496
+    },
+    {
+      "quorum": 5,
+      "avg_latency_ms": 835.3468240006623
+    }
+  ],
+  "parity": [
+    {
+      "url": "http://127.0.0.1:8001",
+      "status": "match"
+    },
+    {
+      "url": "http://127.0.0.1:8002",
+      "status": "match"
+    },
+    {
+      "url": "http://127.0.0.1:8003",
+      "status": "match"
+    },
+    {
+      "url": "http://127.0.0.1:8004",
+      "status": "match"
+    },
+    {
+      "url": "http://127.0.0.1:8005",
+      "status": "match"
+    }
+  ],
+  "plot": "reports\\quorum_vs_latency.png"
+}
